@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Demo Scripts">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="192.168.150.110\PSYLOCKE:andy_local">
+          <Created>2017-03-23T11:08:24.0612629-05:00</Created>
+          <Type>SQL</Type>
+          <Server>192.168.150.110\PSYLOCKE</Server>
+          <UserName>andy_local</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="0 - Reset.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.150.110\PSYLOCKE:False:andy_local</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.150.110\PSYLOCKE</AssociatedConnSrvName>
+          <AssociatedConnUserName>andy_local</AssociatedConnUserName>
+          <FullPath>0 - Reset.sql</FullPath>
+        </FileNode>
+        <FileNode Name="1 - Check Table Datatypes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.150.110\PSYLOCKE:False:andy_local</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.150.110\PSYLOCKE</AssociatedConnSrvName>
+          <AssociatedConnUserName>andy_local</AssociatedConnUserName>
+          <FullPath>1 - Check Table Datatypes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="2 - Data Pages.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.150.110\PSYLOCKE:False:andy_local</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.150.110\PSYLOCKE</AssociatedConnSrvName>
+          <AssociatedConnUserName>andy_local</AssociatedConnUserName>
+          <FullPath>2 - Data Pages.sql</FullPath>
+        </FileNode>
+        <FileNode Name="3 - Transaction Log Overhead.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.150.110\PSYLOCKE:False:andy_local</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.150.110\PSYLOCKE</AssociatedConnSrvName>
+          <AssociatedConnUserName>andy_local</AssociatedConnUserName>
+          <FullPath>3 - Transaction Log Overhead.sql</FullPath>
+        </FileNode>
+        <FileNode Name="4 - Page Splitting.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.150.110\PSYLOCKE:False:andy_local</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.150.110\PSYLOCKE</AssociatedConnSrvName>
+          <AssociatedConnUserName>andy_local</AssociatedConnUserName>
+          <FullPath>4 - Page Splitting.sql</FullPath>
+        </FileNode>
+        <FileNode Name="5 - Implicit Conversions.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.150.110\PSYLOCKE:False:andy_local</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.150.110\PSYLOCKE</AssociatedConnSrvName>
+          <AssociatedConnUserName>andy_local</AssociatedConnUserName>
+          <FullPath>5 - Implicit Conversions.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
