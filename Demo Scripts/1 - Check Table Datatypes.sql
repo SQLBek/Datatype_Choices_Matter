@@ -59,21 +59,6 @@ GO
 
 
 -----
--- I just learned this 20 minutes ago
--- from Kendra Little
--- SSMS Enhancement
-SELECT TOP 1000 *
-FROM dbo.Employee_Large
-ORDER BY LastName, FirstName;
-
-
-
-
-
-
-
-
------
 -- DMV Query: sys.dm_db_index_physical_stats
 -- Use avg_record_size_in_bytes to gauge current record density
 SELECT 
